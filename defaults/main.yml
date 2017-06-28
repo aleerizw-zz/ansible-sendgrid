@@ -1,0 +1,13 @@
+---
+# defaults file for sendgrid_notifier
+sendgrid_notifier_api_key         : "api key"
+sendgrid_notifier_bcc             : []
+sendgrid_notifier_cc              : []
+sendgrid_notifier_headers         : []
+sendgrid_notifier_from_address    : "from@example.com"
+sendgrid_notifier_from_name       : ""
+sendgrid_notifier_reply_to        : ""
+sendgrid_notifier_to_addresses    : []
+sendgrid_notifier_subject         : ""
+sendgrid_notifier_body            : ""
+sendgrid_notifier_html_body       : False

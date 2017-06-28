@@ -1,0 +1,8 @@
+galaxy_info:
+  author: Ali Rizwan
+  description: "Ansible Sendgrid Notifier"
+  min_ansible_version: 2.2
+  platforms: []
+  categories:
+    - email
+    - mail

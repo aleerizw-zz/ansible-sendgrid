@@ -1,0 +1,19 @@
+---
+# tasks file for sendgrid_notifier
+- name: Send Email
+  tags: email
+  sendgrid:
+    username       : "{{ sendgrid_notifier_username }}"
+    password       : "{{ sendgrid_notifier_password }}"
+    api_key        : "{{ sendgrid_notifier_api_key }}"
+    bcc            : "{{ sendgrid_notifier_bcc }}"
+    cc             : "{{ sendgrid_notifier_cc }}"
+    headers        : "{{ sendgrid_notifier_headers }}"
+    from_address   : "{{ sendgrid_notifier_from_address }}"
+    from_name      : "{{ sendgrid_notifier_from_name }}"
+    reply_to       : "{{ sendgrid_notifier_reply_to }}"
+    to_addresses   : "{{ sendgrid_notifier_to_addresses }}"
+    subject        : "{{ sendgrid_notifier_subject }}"
+    body           : "{{ sendgrid_notifier_body }}"
+    html_body      : "{{ sendgrid_notifier_html_body }}"
+    attachments    : "{{ sendgrid_notifier_attachments }}"
