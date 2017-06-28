@@ -23,8 +23,8 @@ sendgrid_notifier_from_name       : "From sender"
 sendgrid_notifier_reply_to        : "reply@example.com"
 sendgrid_notifier_to_addresses    : ["user1@example.com"]
 sendgrid_notifier_subject         : "Subject"
-sendgrid_notifier_body            : "Hi there"
-sendgrid_notifier_html_body       : "<b>Hi there</b>"
+sendgrid_notifier_body            : "<b>Hi there</b>"
+sendgrid_notifier_html_body       : True
 ```
 
 License
