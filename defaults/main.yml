@@ -11,3 +11,4 @@ sendgrid_notifier_to_addresses    : []
 sendgrid_notifier_subject         : ""
 sendgrid_notifier_body            : ""
 sendgrid_notifier_html_body       : False
+sendgrid_notifier_list_users      : []

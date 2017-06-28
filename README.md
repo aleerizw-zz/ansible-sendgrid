@@ -25,6 +25,7 @@ sendgrid_notifier_to_addresses    : ["user1@example.com"]
 sendgrid_notifier_subject         : "Subject"
 sendgrid_notifier_body            : "<b>Hi there</b>"
 sendgrid_notifier_html_body       : True
+sendgrid_notifier_list_users      : ["list"]
 ```
 
 License

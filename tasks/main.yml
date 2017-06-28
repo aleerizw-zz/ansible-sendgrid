@@ -14,3 +14,5 @@
     subject        : "{{ sendgrid_notifier_subject }}"
     body           : "{{ sendgrid_notifier_body }}"
     html_body      : "{{ sendgrid_notifier_html_body }}"
+  with_items : "{{ sendgrid_notifier_list_users }}"
+  when: sendgrid_notifier_list_users != []
