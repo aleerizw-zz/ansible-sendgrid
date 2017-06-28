@@ -1,4 +1,4 @@
-Role Name
+sendgrid_notifier
 =========
 
 Role to send emails through sendgrid api or username / password.
