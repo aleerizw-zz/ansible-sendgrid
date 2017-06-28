@@ -86,6 +86,8 @@ def main():
     body = module.params['body']
     html_body = module.params['html_body']
 
+    if not to_addresses:
+        module.exit_json(msg="No recipient specified, skipping.", changed=False)
     try:
         response = post_sendgrid_api(from_address, reply_to, to_addresses,
                                      subject, body, api_key, cc, bcc,

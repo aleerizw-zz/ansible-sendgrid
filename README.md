@@ -1,7 +1,7 @@
 sendgrid_notifier
 =========
 
-Role to send emails through sendgrid api or username / password.
+Role to send emails through sendgrid api.
 
 Requirements
 ------------
@@ -35,4 +35,4 @@ BSD
 Author Information
 ------------------
 
-* [Ali Rizwan](github.com/aleerizw)
+* [Ali Rizwan](http://www.github.com/aleerizw)
