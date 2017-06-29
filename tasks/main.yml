@@ -2,7 +2,7 @@
 # tasks file for sendgrid_notifier
 - name: Send Email
   tags: email
-  sendgrid:
+  sendgrid_notifier:
     api_key        : "{{ sendgrid_notifier_api_key }}"
     bcc            : "{{ sendgrid_notifier_bcc }}"
     cc             : "{{ sendgrid_notifier_cc }}"

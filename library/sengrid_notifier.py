@@ -99,7 +99,7 @@ def main():
         module.fail_json(msg="Unable to send email through SendGrid API: %s" %
                          response.body, changed=False)
 
-    module.exit_json(msg=subject, changed=True)
+    module.exit_json(msg="Email sent, response code:" + str(response.status_code), changed=True)
 
 # import module snippets
 from ansible.module_utils.basic import *
